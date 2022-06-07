@@ -13,6 +13,7 @@ class PostListView(ListView):
 
 class PostDetailView(DetailView):
     model = Post
+    context_object_name = "post"
     slug_url_kwarg = 'post_slug'
 
 
