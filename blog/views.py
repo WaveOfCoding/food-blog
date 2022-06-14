@@ -23,4 +23,3 @@ class PostDetailView(DetailView):
     slug_url_kwarg = 'post_slug'
 
 
-
