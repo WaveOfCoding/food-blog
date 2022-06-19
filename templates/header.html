@@ -1,4 +1,6 @@
-{% load social_tags %}
+{% load social_tags cache %}
+
+{% cache 10 header %}
 <header class="header">
   <div class="header__top">
     <div class="container">
@@ -39,3 +41,4 @@
     </div>
   </div>
 </header>
+{% endcache %}
